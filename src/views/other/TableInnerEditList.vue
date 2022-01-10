@@ -210,7 +210,7 @@ export default {
       // row = Object.assign({}, row)
     },
     // eslint-disable-next-line
-    del (row) {
+    del(row) {
       this.$confirm({
         title: '警告',
         content: `真的要删除 ${row.no} 吗?`,
